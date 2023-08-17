@@ -1,0 +1,9 @@
+database.json
+
+node_modules
+<<<<<<< HEAD
+
+=======
+/database.json
+sql_query.sql
+>>>>>>> 8bb7bdc (수정)
