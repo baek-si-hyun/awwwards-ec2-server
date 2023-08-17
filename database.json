@@ -1,0 +1,8 @@
+{
+    "host": "database-2.c1wxusgsxb3l.ap-northeast-2.rds.amazonaws.com",
+    "user": "admin",
+    "password": "!Zz990219zz",
+    "port": "3306",
+    "database": "awwwards_myapp"
+  }
+  
