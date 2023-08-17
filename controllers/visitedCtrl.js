@@ -21,25 +21,25 @@ const visitedCtrl = {
     const receivedData = req.body;
 
     switch (receivedData.pathname) {
-      case "/VisualCoin":
+      case "/visual-coin":
         await updateDB("visited_visaulcoin_today", "visited_visaulcoin_total");
         break;
-      case "/CarrotMarket":
+      case "/carrot-market":
         await updateDB("visited_carrotmarket_today", "visited_carrotmarket_total");
         break;
-      case "/Awwwards":
+      case "/awwwards":
         await updateDB("visited_awwwards_today", "visited_awwwards_total");
         break;
-      case "/Kanban":
+      case "/kanban":
         await updateDB("visited_kanban_today", "visited_kanban_total");
         break;
-      case "/Coin":
+      case "/coin":
         await updateDB("visited_coin_today", "visited_coin_total");
         break;
-      case "/Myapp":
+      case "/myapp":
         await updateDB("visited_myapp_today", "visited_myapp_total");
         break;
-      case "/Airbnb":
+      case "/airbnb":
         await updateDB("visited_airbnb_today", "visited_airbnb_total");
         break;
       default:
